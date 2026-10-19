@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+.env
+.DS_Store
+.vscode/
+*.db
+*.sqlite3
+
+# Never commit: contains real client PII (phone/email/address) for HLF's
+# Key Makers. Keep local only — see seed_key_makers_public.py for the
+# git-safe counterpart with public fields only.
+seed_key_makers_private.py
+
+# Throwaway local-only script — fabricated placeholder data for visually
+# reviewing UI, not real HLF content. Delete once no longer needed.
+_seed_calendar_preview.py
